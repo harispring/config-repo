@@ -5,13 +5,14 @@ spring:
 
 server:
   port: 8004
-message: {cipher}27153771cd7c3a1e7a9a311ed1e2e79bafa8975b801600dc6404749123619629
-password: {cipher}27153771cd7c3a1e7a9a311ed1e2e79bafa8975b801600dc6404749123619629
+message: "{cipher}27153771cd7c3a1e7a9a311ed1e2e79bafa8975b801600dc6404749123619629"
+password: "{cipher}27153771cd7c3a1e7a9a311ed1e2e79bafa8975b801600dc6404749123619629"
 management:
   endpoints:
     web:
       exposure:
         include: refresh
+
 
 
 
