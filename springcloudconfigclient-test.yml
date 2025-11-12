@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springcloudconfigclient
+
+
+server:
+  port: 8004
