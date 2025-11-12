@@ -6,3 +6,9 @@ spring:
 server:
   port: 8004
 message: "welcometo spring"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
