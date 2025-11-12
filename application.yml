@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/your-org/config-repo.git
+          uri: https://github.com/harispring/config-repo.git
           # If private repo, add username/password or use SSH
           #username: your-username
           #password: your-password
